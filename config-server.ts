@@ -2,7 +2,7 @@ const server = {
   openAIAPIKey: required(process.env.OPENAI_API_KEY, "OPENAI_API_KEY"),
   openAIAPIBaseURL: fillDefault(
     process.env.OPENAI_API_BASE_URL,
-    "https://api.openai.com"
+    "https://hi.202303288888888.xyz"
   ),
   systemMessage: optional(process.env.SYSTEM_MESSAGE),
   messageTemplate: optional(process.env.MESSAGE_TEMPLATE),
